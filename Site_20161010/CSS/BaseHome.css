@@ -1,0 +1,335 @@
+/* CSS RESET */
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+body {
+	background: scroll #4e87c7 url(../IMGS/base/BGBody.jpg) repeat-x center top;
+}
+#site {
+	height: auto;
+	width: 960px;
+	margin: 0px auto auto auto;
+}
+#header {
+	height: 155.5px;
+	width: 960px;
+	margin: 0px auto auto auto;
+}
+.mapSite {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 9px;
+	color: #FFF;
+	background-color: #3e6489;
+	float: right;
+	padding: 10px 15px;
+	margin: 0px 15px auto auto;
+}
+.mapSite a {
+	color: #FFF;
+}
+.mapSite a:hover {
+	text-decoration: underline;
+}
+.Logo {
+	float: left;
+	height: auto;
+	width: auto;
+	margin: 25px auto auto 2px;
+}
+.LogoTexto {
+	font-family: "Bell Gothic Std", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #8c8bbd;
+	float: left;
+	margin: 30px auto auto 2px;
+}
+.LogoTexto a {
+	color: #8c8bbd;
+}
+.nav {
+	height: 31px;
+	width: 957px;
+	list-style: none;
+	float: left;
+	background-color: #3f6288;
+	background-image: url(../IMGS/base/BgNav.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin: 30px auto 0px auto;
+	position: relative;
+	overflow:hidden;
+	padding-left: 5px;
+}
+.nav ul {
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+.nav li {
+	list-style: none;
+	margin: 0px;
+	display: inline;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	padding: 3px 7px;
+	position: relative;
+}
+.nav li ul {
+	position: absolute;
+	left: 50px;
+	top: 50;
+	display: none;
+	float:left;
+	}
+.nav li:hover ul { display: block; }
+.nav li a {
+	color: #FFF;
+	padding: 3px 7px;
+	position: relative;
+}
+.nav li a:hover {
+	background-color:#2a4b6a;
+	padding: 3px 7px;
+	position: relative;
+}
+.navActive {
+	background-color:#2a4b6a;
+	padding: 3px 7px;
+	cursor: auto;
+	position: relative;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+#content {
+	margin: 0px auto;
+	height: auto;
+	width: 930px;
+	overflow: hidden;
+	background-color: #FFF;
+	background-image: url(../IMGS/base/BgContent.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	padding: 15px;
+	border: thin solid #CCC;
+}
+#collum-left {
+	float: left;
+	height: auto;
+	width: 960px;
+	margin: 25px auto auto auto;
+}
+#collum-middle {
+	width: 930px;
+	border: thin solid #CCC;
+	overflow: hidden;
+	position: relative;
+}
+#collum-middle #content-box-middle {
+	padding: 0px 15px 5px 15px;
+	height: auto;
+	width: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	overflow: hidden;
+	color: #333;
+}
+.contentNewsMaior {
+	float: left;
+	height: auto;
+	width: 530px;
+}
+.contentNewsMaior p img {
+	float: left;
+}
+
+.contentNewsMenor {
+	float: left;
+	height: auto;
+	width: 330px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+#content-box-middle h1 {
+	font-size: 18px;
+	font-style: italic;
+	color: #666;
+	font-weight: bold;
+	margin: 5px auto 10px 0px;
+}
+#content-box-middle img {
+	float: left;
+	margin: 5px 5px auto auto;
+	border: thin solid #999;
+}
+#gallery {
+	background-color: #CCC;
+	height: 200px;
+	width: 930px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	position: relative;
+	bottom: 0px;
+	border: -1px solid #666;
+}
+#content-box-middle p {
+	text-indent: 10px;
+	margin: auto auto 20px auto;
+}
+.box-195px {
+	height: 220px;
+	width: 200px;
+	border: thin solid #b6b5b5;
+	margin-top: auto;
+	margin-bottom: 15px;
+	overflow: hidden;
+	background-color: #FFF;
+	background-image: url(../IMGS/base/bg-box195.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	float: left;
+	margin-right: 36px;
+}
+.box-195px ul li {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+}
+.box-195px ul li a {
+	color: #333;
+	font-weight: bold;
+}
+.box-195px ul li a:hover {
+	text-decoration: underline;
+}
+.contentBox195 {
+	padding: 0px 5px;
+	height: auto;
+	width: 185px;
+}
+.TagTitulo {
+	background-position: center top;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	height: 30px;
+	padding: 2px;
+	background-image: url(../IMGS/base/bgTitulo.jpg);
+	background-repeat: repeat-x;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.contact-home {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+	font-size: 12px;
+	margin: 5px auto;
+}
+#footer {
+	background-image: url(../IMGS/base/footerBg.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+	margin: 15px auto auto auto;
+	height: 115px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+}
+#footer-content {
+	margin: auto;
+	height: auto;
+	width: 960px;
+	overflow: hidden;
+}
+#box-left-footer {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
+	font-size: 12px;
+	margin: 7px auto auto 15px;
+	width: 300px;
+	height: auto;
+	float: left;
+}
+#box-right-footer {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
+	font-size: 12px;
+	margin: 10px 15px auto auto;
+	width: 300px;
+	height: auto;
+	float: right;
+	text-align: right;
+}
+.atencaoIMG {
+	padding: 5px 15px;
+	width: 165px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.data {
+	float: left;
+	height: 38px;
+	width: 38px;
+	background-image: url(../IMGS/base/BgCalendario.GIF);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.evento {
+	margin: 5px auto 10px auto;
+	height: auto;
+	width: 165px;
+}
+.atencaoIMG a {
+	color: #333;
+	font-weight: bold;
+}
+.atencaoIMG a:hover {
+	text-decoration: underline;
+}
+.calendario {
+	width: 165px;
+	overflow: hidden;
+}
+.mes {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #FFF;
+	margin: 3px auto;
+}
+.dia {
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+#descricaoEvento {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+	font-size: 14px;
+	margin: auto;
+	float: right;
+}

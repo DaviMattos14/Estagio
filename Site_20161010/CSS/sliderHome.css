@@ -1,0 +1,76 @@
+/*preload classes*/
+.svw {width: 50px; height: 20px; background: #fff;}
+.svw ul {position: relative; left: -999em;}
+
+/*core classes*/
+.stripViewer {
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 1px 0;
+}
+.stripViewer ul { /* this is your UL of images */
+margin: 0;
+padding: 0;
+position: relative;
+left: 0;
+top: 0;
+width: 1%;
+list-style-type: none;
+}
+.stripViewer ul li { 
+float:left;
+}
+.stripTransmitter {
+overflow: auto;
+width: 1%;
+}
+.stripTransmitter ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	list-style-type: none;
+	top: 170px;
+	left: 5px;
+}
+.stripTransmitter ul li{
+	width: 30px;
+	float:left;
+	height: 30px;
+	margin-right: 10px;
+}
+.stripTransmitter a{
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-family: Verdana, Arial;
+	font-size: 10px;
+	font-weight: bold;
+	background: #333;
+	-webkit-transition-property: color, background;
+	-webkit-transition-duration: 0.25s, 0.25s;
+	-webkit-transition-timing-function: linear, ease-in;
+	border-radius: 10px;
+}
+.stripTransmitter a:hover, a.current{
+	color: #333;
+	background: #989898;
+}
+
+/*tooltips formatting*/
+.tooltip
+{
+padding: 0.5em;
+background: #fff;
+color: #000;
+border: 5px solid #dedede;
+}
+.ldrgif {
+	height: 32px;
+	width: 32px;
+	margin-top: 42px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 420px;
+}

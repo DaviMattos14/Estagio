@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>CP2 - UEEN II</title>
+
+
+  <link href="CSS/Base.css" rel="stylesheet" type="text/css" />
+
+  <link href="JS/galleriffic-2.0/css/galleriffic-2.css" rel="stylesheet" type="text/css" />
+
+  <link href="CSS/sliderHome.css" rel="stylesheet" type="text/css" />
+
+  <link href="JS/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript" src="JS/galleriffic-2.0/js/jquery-1.3.2.js"></script>
+  <script type="text/javascript" src="JS/galleriffic-2.0/js/jquery.galleriffic.js"></script>
+  <script type="text/javascript" src="JS/galleriffic-2.0/js/jquery.opacityrollover.js"></script>
+  <script type="text/javascript" src="JS/slideViewer1.22.js"></script>
+  <script type="text/javascript" src="JS/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="JS/jQueryEasingv1.3.js"></script>
+  <script type="text/javascript"> document.write('<style>.noscript { display: none; }</style>');
+  </script>
+  <script type="text/javascript">
+jQuery(window).bind("load", function(){
+jQuery("div#mygalone").slideView();
+});
+  </script>
+  <script type="text/javascript">
+$(document).ready(function() {
+$("a[rel=example_group]").fancybox({
+'transitionIn' : 'elastic',
+'transitionOut' : 'elastic',
+'titlePosition' : 'over',
+'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+}
+});
+});
+  </script>
+  <link rel="stylesheet" type="text/css" href="JS/dropdown/ddsmoothmenu.css" />
+
+  <script type="text/javascript" src="JS/dropdown/ddsmoothmenu.js">
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+  </script>
+  <script type="text/javascript">
+ddsmoothmenu.init({
+mainmenuid: "smoothmenu1", //menu DIV id
+orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+classname: 'ddsmoothmenu', //class added to menu's outer DIV
+//customtheme: ["#1c5a80", "#18374a"],
+contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+  </script>
+  <style>.calendario{ width: 194px; height:195px; background: url(IMGS/calendario.png) no-repeat;} .calendario h2 { font-size: 80px; color: #333; margin: 80px 0px 0px 40px; width: 100px; text-align:center; }</style>
+</head>
+
+
+<body>
+
+<div id="site">
+<div id="header"> <a href="index.html"><img src="IMGS/base/logoNova.png" alt="Pedro II" class="Logo" height="98" width="945" /></a><!--logoTopo--><!--clear-->
+<div id="smoothmenu1" class="ddsmoothmenu">
+<ul>
+
+  <li><a href="index.html">Home</a> </li>
+
+  <li><a href="#">Quem somos</a>
+    <ul>
+
+      <li><a href="organograma.html">Organograma</a></li>
+
+      <li><a href="fotos_unidade.html">Fotos da
+Unidade</a></li>
+
+    </ul>
+
+  </li>
+
+  <li><a href="#">Cursos</a>
+    <ul>
+
+      <li><a href="cursos_fundamental_medio.html">Ensino
+Fundamental e M&eacute;dio</a></li>
+
+      <li><a href="curso_integrado.html">Ensino
+M&eacute;dio Integrado</a></li>
+
+      <li><a href="curso_proeja.html">PROEJA</a></li>
+
+    </ul>
+
+  </li>
+
+  <li><a href="eventos.html">Agenda</a></li>
+
+  <li><a href="localizacao.html">Localiza&ccedil;&atilde;o</a></li>
+
+  <li><a href="faleconosco.html">Fale Conosco</a></li>
+
+</ul>
+
+<!-- FINAL DO SMOOTHMENU --></div>
+
+<div class="clear"></div>
+
+<!-- FINAL DO HEADER --></div>
+
+<!--header-->
+<div id="content">
+<div id="gallery">
+<div id="mygalone" class="svw">
+<ul>
+
+  <li><a href="#"><img src="IMGS/Home/Slider/logo60anos.jpg" alt="Destaque" border="0" /></a></li>
+
+  <li><a href="#"><img src="IMGS/Home/Slider/img2.jpg" alt="Destaque" border="0" /></a></li>
+
+  <li><a href="#"><img src="IMGS/Home/Slider/img3.jpg" alt="Destaque" border="0" /></a></li>
+
+  <li><a href="#"><img src="IMGS/Home/Slider/img4.jpg" alt="Destaque" border="0" /></a></li>
+
+</ul>
+
+<!-- FINAL DO MYGALONE --></div>
+
+<!--mygalone-->
+<!-- FINAL DO GALERY --></div>
+
+<!--gallery, só aparece na Index--><!-- INICIO DO MENU ESQUERDO -->
+<div id="collum-left">
+<div class="box-195px">
+<p class="TagTitulo"><img src="IMGS/Icons/linksImportantes.gif" alt="IMG" height="14" width="14" />Aten&ccedil;&atilde;o</p>
+
+<div class="contentBox195">
+<!-- início do calendário -->
+<div class="calendario">
+<script type="text/javascript"> $(document).ready(function() {
+var startDate = new Date();
+var selDay = startDate.getDate();
+$('.calendario h2').text(selDay);
+});
+</script>
+<h2></h2>
+
+</div>
+
+<!-- final do calendário -->
+<ul>
+
+  <li><a href="http://www.cp2.g12.br/alunos/boletim/login.htm" target="_blank">Boletim</a></li>
+
+  <li><a href="calendario_escolar.html">Calend&aacute;rio
+Escolar</a></li>
+
+  <li><a href="calendario_provas.html">Calend&aacute;rio
+de Provas</a></li>
+
+  <li><a href="conteudo_provas.html">Conte&uacute;dos
+das Provas</a></li>
+
+  <li><a href="eventos.html">Pr&oacute;ximos
+Eventos</a></li>
+
+</ul>
+
+<!-- FINAL DO CONTENT BOX 195 --></div>
+
+<!--contentbox-195px-->
+<!-- FINAL DO BOX195 --></div>
+
+<!--box-195px-->
+<div class="box-195px">
+<p class="TagTitulo"><img src="IMGS/Icons/linksImportantes.gif" alt="IMG" height="14" width="14" /> Institucional</p>
+
+<div class="contentBox195">
+<ul>
+
+  <li><a href="normas.html">Normas</a></li>
+
+  <li><a href="horario.html">Hor&aacute;rio
+Escolar</a></li>
+
+  <li><a href="ben2.html">BEN II</a></li>
+
+  <li><a href="http://pt.wikipedia.org/wiki/Col%C3%A9gio_Pedro_II#Hino" target="_blank">Hino
+do Col&eacute;gio Pedro II</a></li>
+
+</ul>
+
+<!-- FINAL DO CONTENT BOX195 --></div>
+
+<!--contentbox-195px-->
+<!-- FINAL DO BOX195 --></div>
+
+<!--box-195px-->
+<div class="box-195px">
+<p class="TagTitulo"><img src="IMGS/Icons/linksImportantes.gif" alt="IMG" height="14" width="14" /> Pedag&oacute;gico</p>
+
+<div class="contentBox195">
+<ul>
+
+  <li><a href="ensino_fundamental.html">Ensino
+Fundamental - Segundo Segmento</a></li>
+
+  <li><a href="ensino_medio.html">Ensino
+M&eacute;dio</a></li>
+
+  <li><a href="ensino_medio_integrado.html">Ensino
+M&eacute;dio Integrado</a></li>
+
+  <li><a href="http://proeja-cp2.ning.com/" target="_blank">Proeja</a></li>
+
+  <li><a href="disciplinas.html">Disciplinas</a></li>
+
+  <li><a href="projetos.html">Projetos</a></li>
+
+  <li><a target="_blank" href="programas_estagios/programas_estagios_2011.ppt">Programas
+e Est&aacute;gios</a></li>
+
+</ul>
+
+<!-- FINAL DO CONTENT BOX195 --></div>
+
+<!--contentbox-195px-->
+<!-- FINAL DO BOX 195 --></div>
+
+<!--box-195px-->
+<!-- FINAL DO COLLUM LEFT --></div>
+
+<!--collum-left--><!-- FINAL DO MENU ESQUERDO -->
+<!--collum-middle--><!-- ===== INICIO DA ALTERAÇÃO ====== -->
+<div id="collum-middle">
+<p class="TagTitulo"> <img src="IMGS/Icons/user_business.png" alt="quemsomos" height="14" width="14" /> Ensino M&eacute;dio -
+Blogs das S&eacute;ries</p>
+
+<div id="content-box-middle">
+<ul>
+
+  <h1>Clique para acessar:</h1>
+
+  <li><a href="#">1&ordf; s&eacute;rie</a></li>
+
+  <li><a href="#">2&ordf; s&eacute;rie</a></li>
+
+  <li><a href="#">3&ordf; s&eacute;rie</a></li>
+
+  <li></li>
+
+</ul>
+</div>
+
+<!-- FINAL DO COLLUM MIDDLE --></div>
+
+<!--contentbox-middle-->
+<!-- FINAL DO CONTENT --></div>
+
+<!--collum-middle-->
+<div class="clear"></div>
+
+<!-- INICIO DO RODAPE -->
+<div id="footer">
+<div id="footer-content">
+<div id="box-left-footer"> Melhor visualizado em 1024x768
+ou superior. <br />
+
+Mantenha seu navegador atualizado.<br />
+
+<br />
+
+Rua Bar&atilde;o do Bom Retiro, 726<br />
+
+Email: ueen2@cp2.g12.br<br />
+
+Tel: (021) 3297-9400<br />
+
+Dire&ccedil;&atilde;o: Prof&ordf; Daisy
+L&uacute;cia
+Gomes de Oliveira<!-- FINAL DO BOX LEFT FOOTER --> </div>
+
+<div id="box-right-footer">Col&eacute;gio Pedro II<br />
+
+Unidade Escolar Engenho Novo II<br />
+
+<br />
+
+<div align="right"> <a href="#" target="_blank"><img src="http://contador.s12.com.br/img-Y89cZac9-45.gif" alt="Visitantes" border="0" /></a> Visitas
+<!-- FINAL DO ALIGN RIGHT --></div>
+
+<br />
+
+Design by <a href="http://www.leandrooriente.com.br" target="_blank">Leandro
+Oriente </a><!-- FINAL DO BOX RIGHT FOOTER --></div>
+
+<!-- FINAL DO FOOTER CONTENT --></div>
+
+<!-- FINAL DO FOOTER --></div>
+
+<!--footer-->
+<!-- FINAL DO SITE --></div>
+
+</body>
+</html>
